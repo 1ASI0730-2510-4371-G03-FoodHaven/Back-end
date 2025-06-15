@@ -71,3 +71,4 @@ C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\ne
 C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\net9.0\Scrutor.dll
+C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.sourcelink.json
