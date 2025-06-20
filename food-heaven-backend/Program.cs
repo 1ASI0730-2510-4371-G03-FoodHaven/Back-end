@@ -1,15 +1,29 @@
 using food_heaven_backend.Shared.Infraestructure.Persistence.Configuration;
 using food_heaven_backend.Shared.Domain.Repositories;
 using food_heaven_backend.Shared.Infraestructure.Persistence.Repositories;
+
 using food_heaven_backend.Usuarios.Domain.Services;
+using food_heaven_backend.PlanComidas.Domain.Services;
+
 using food_heaven_backend.Usuarios.Application.CommandServices;
+using food_heaven_backend.PlanComidas.Application.CommandServices;
+
 using food_heaven_backend.Usuarios.Application.QueryServices;
+using food_heaven_backend.PlanComidas.Application.QueryServices;
+
 using food_heaven_backend.Usuarios.Domain;
+
 using food_heaven_backend.Usuarios.Infraestructure;
+using food_heaven_backend.PlanComidas.Infrastructure;
+
 using FluentValidation;
+
+using food_heaven_backend.PlanComidas.Domain.Models.Commands;
 using food_heaven_backend.Usuarios.Domain.Models.Commands;
+
+using food_heaven_backend.PlanComidas.Domain.Models.Validators;
 using food_heaven_backend.Usuarios.Domain.Models.Validators;
-using food_heaven_backend.Usuarios.Infraestructure;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,13 +43,19 @@ builder.Services.AddSwaggerGen();
 // Registro de servicios de dominio y aplicación
 builder.Services.AddScoped<IUsuarioQueryService, UsuarioQueryService>();
 builder.Services.AddScoped<IUsuarioCommandService, UsuarioCommandService>();
+builder.Services.AddScoped<IPlanComidaCommandService, PlanComidaCommandService>();
+builder.Services.AddScoped<IPlanComidaQueryService, PlanComidaQueryService>();
+
 
 // Registro del repositorio de Usuario y UnitOfWork
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IPlanComidaRepository, PlanComidaRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Registro de validadores
 builder.Services.AddScoped<IValidator<CreateUsuarioCommand>, CreateUsuarioCommandValidator>();
+builder.Services.AddScoped<IValidator<CreatePlanComidaCommand>, CreatePlanComidaCommandValidator>();
+
 
 // Build de la aplicación
 var app = builder.Build();
@@ -47,6 +67,12 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<FoodHeavenContext>();
+    context.Database.EnsureCreated();
 }
 
 // Redirigir la raíz '/' a Swagger
