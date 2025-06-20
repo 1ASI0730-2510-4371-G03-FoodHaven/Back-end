@@ -71,3 +71,14 @@ C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\ne
 C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\ACER\RiderProjects\food-heaven-backend\food-heaven-backend\bin\Debug\net9.0\Scrutor.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.csproj.AssemblyReference.cache
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.AssemblyInfoInputs.cache
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.AssemblyInfo.cs
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.sourcelink.json
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\refint\food-heaven-backend.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.pdb

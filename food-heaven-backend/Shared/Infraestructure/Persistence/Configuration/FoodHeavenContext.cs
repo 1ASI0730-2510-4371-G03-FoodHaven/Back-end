@@ -1,11 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using food_heaven_backend.Usuarios.Domain.Models.Entities;
+using food_heaven_backend.PlanComida.Domain.Models.Entities;
 
 namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
 {
     public class FoodHeavenContext(DbContextOptions options) : DbContext(options)
     {
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<PlanComida> PlanesComida { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -50,6 +52,18 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
                 entity.Property(u => u.FechaRegistro)
                     .HasColumnName("fecha_registro")
                     .IsRequired();
+            });
+            
+            builder.Entity<PlanComida>(entity =>
+            {
+                entity.ToTable("plan_comida");
+
+                entity.HasKey(pc => pc.Id);
+
+                entity.Property(pc => pc.Id).HasColumnName("id_plan");
+                entity.Property(pc => pc.IdUsuario).HasColumnName("id_usuario").IsRequired();
+                entity.Property(pc => pc.FechaInicio).HasColumnName("fecha_inicio").IsRequired();
+                entity.Property(pc => pc.FechaFin).HasColumnName("fecha_fin").IsRequired();
             });
         }
     }

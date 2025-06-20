@@ -29,13 +29,19 @@ builder.Services.AddSwaggerGen();
 // Registro de servicios de dominio y aplicación
 builder.Services.AddScoped<IUsuarioQueryService, UsuarioQueryService>();
 builder.Services.AddScoped<IUsuarioCommandService, UsuarioCommandService>();
+builder.Services.AddScoped<IPlanComidaCommandService, PlanComidaCommandService>();
+builder.Services.AddScoped<IPlanComidaQueryService, PlanComidaQueryService>();
+
 
 // Registro del repositorio de Usuario y UnitOfWork
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IPlanComidaRepository, PlanComidaRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Registro de validadores
 builder.Services.AddScoped<IValidator<CreateUsuarioCommand>, CreateUsuarioCommandValidator>();
+builder.Services.AddScoped<IValidator<CreatePlanComidaCommand>, CreatePlanComidaCommandValidator>();
+
 
 // Build de la aplicación
 var app = builder.Build();
@@ -47,6 +53,12 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<FoodHeavenContext>();
+    context.Database.EnsureCreated();
 }
 
 // Redirigir la raíz '/' a Swagger
