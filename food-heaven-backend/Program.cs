@@ -23,7 +23,6 @@ using food_heaven_backend.Usuarios.Domain.Models.Commands;
 
 using food_heaven_backend.PlanComidas.Domain.Models.Validators;
 using food_heaven_backend.Usuarios.Domain.Models.Validators;
-<<<<<<< HEAD
 using food_heaven_backend.Usuarios.Infraestructure;
 using food_heaven_backend.FoodCatalogContext.Application.CommandServices;
 using food_heaven_backend.FoodCatalogContext.Application.QueryServices;
@@ -32,9 +31,7 @@ using food_heaven_backend.FoodCatalogContext.Domain.Models.Commands;
 using food_heaven_backend.FoodCatalogContext.Domain.Models.Validators;
 using food_heaven_backend.FoodCatalogContext.Domain.Services;
 using food_heaven_backend.FoodCatalogContext.Infraestructure;
-=======
 
->>>>>>> feature/mealPlanContext
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -54,7 +51,6 @@ builder.Services.AddSwaggerGen();
 // Registro de servicios de dominio y aplicación
 builder.Services.AddScoped<IUsuarioQueryService, UsuarioQueryService>();
 builder.Services.AddScoped<IUsuarioCommandService, UsuarioCommandService>();
-<<<<<<< HEAD
 builder.Services.AddScoped<IProveedorCommandService, ProveedorCommandService>();
 builder.Services.AddScoped<IProveedorQueryService, ProveedorQueryService>();
 builder.Services.AddScoped<IComidaCommandService, ComidaCommandService>();
@@ -64,7 +60,6 @@ builder.Services.AddScoped<IComidaQueryService, ComidaQueryService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IProveedorRepository, ProveedorRepository>();
 builder.Services.AddScoped<IComidaRepository, ComidaRepository>();
-=======
 builder.Services.AddScoped<IPlanComidaCommandService, PlanComidaCommandService>();
 builder.Services.AddScoped<IPlanComidaQueryService, PlanComidaQueryService>();
 
@@ -72,18 +67,13 @@ builder.Services.AddScoped<IPlanComidaQueryService, PlanComidaQueryService>();
 // Registro del repositorio de Usuario y UnitOfWork
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IPlanComidaRepository, PlanComidaRepository>();
->>>>>>> feature/mealPlanContext
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Registro de validadores
 builder.Services.AddScoped<IValidator<CreateUsuarioCommand>, CreateUsuarioCommandValidator>();
-<<<<<<< HEAD
 builder.Services.AddScoped<IValidator<CreateProveedorCommand>, CreateProveedorCommandValidator>();
 builder.Services.AddScoped<IValidator<CreateComidaCommand>, CreateComidaCommandValidator>();
-=======
 builder.Services.AddScoped<IValidator<CreatePlanComidaCommand>, CreatePlanComidaCommandValidator>();
-
->>>>>>> feature/mealPlanContext
 
 // Build de la aplicación
 var app = builder.Build();
