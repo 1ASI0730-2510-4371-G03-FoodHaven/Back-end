@@ -7,13 +7,6 @@ using food_heaven_backend.Usuarios.Application.QueryServices;
 using food_heaven_backend.Usuarios.Domain;
 using food_heaven_backend.Usuarios.Infraestructure;
 using FluentValidation;
-using food_heaven_backend.DetalleEntregas.Application.CommandServices;
-using food_heaven_backend.DetalleEntregas.Application.QueryServices;
-using food_heaven_backend.DetalleEntregas.Domain;
-using food_heaven_backend.DetalleEntregas.Domain.Models.Commands;
-using food_heaven_backend.DetalleEntregas.Domain.Models.Validators;
-using food_heaven_backend.DetalleEntregas.Domain.Services;
-using food_heaven_backend.DetalleEntregas.Infraestructure;
 using food_heaven_backend.Usuarios.Domain.Models.Commands;
 using food_heaven_backend.Usuarios.Domain.Models.Validators;
 using food_heaven_backend.Usuarios.Infraestructure;
@@ -36,17 +29,13 @@ builder.Services.AddSwaggerGen();
 // Registro de servicios de dominio y aplicación
 builder.Services.AddScoped<IUsuarioQueryService, UsuarioQueryService>();
 builder.Services.AddScoped<IUsuarioCommandService, UsuarioCommandService>();
-builder.Services.AddScoped<IDetalleEntregaQueryService, DetalleEntregaQueryService>();
-builder.Services.AddScoped<IDetalleEntregaCommandService, DetalleEntregaCommandService>();
 
 // Registro del repositorio de Usuario y UnitOfWork
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-builder.Services.AddScoped<IDetalleEntregaRepository, DetalleEntregaRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Registro de validadores
 builder.Services.AddScoped<IValidator<CreateUsuarioCommand>, CreateUsuarioCommandValidator>();
-builder.Services.AddScoped<IValidator<CreateDetalleEntregaCommand>, CreateDetalleEntregaCommandValidator>();
 
 // Build de la aplicación
 var app = builder.Build();

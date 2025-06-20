@@ -8,42 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11348464-3d13-4ce4-8477-4fc744495e49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Application/CommandServices/DetalleEntregaCommandService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Application/QueryServices/DetalleEntregaQueryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/IDetalleEntregaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Commands/CreateDetalleEntregaCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Commands/DeleteDetalleEntregaCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Commands/UpdateDetalleEntregaCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Entities/DetalleEntrega.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Exceptions/NotDetalleEntregaFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Queries/GetAllDetalleEntregaQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Queries/GetDetalleEntregaByIdQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Models/Validators/CreateDetalleEntregaCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Services/IDetalleEntregaCommandService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Domain/Services/IDetalleEntregaQueryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Infraestructure/DetalleEntregaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Interfaces/REST/DetalleEntregaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Interfaces/REST/Resources/DetalleEntregaResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-heaven-backend/DetalleEntregas/Interfaces/REST/Transform/DetalleEntregaResourceFromEntityAssembler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.food-heaven-backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.food-heaven-backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/LearningCenterContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/LearningCenterContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.exe" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/ref/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/ref/food-heaven-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/refint/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/refint/food-heaven-backend.dll" afterDir="false" />
-    </list>
+    <list default="true" id="11348464-3d13-4ce4-8477-4fc744495e49" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,14 +16,6 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
@@ -80,7 +37,6 @@
   "keyToString": {
     ".NET Launch Settings Profile.food-heaven-backend: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/detalle__entrega",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750003650362</updated>
-      <workItem from="1750003652601" duration="15415000" />
+      <workItem from="1750003652601" duration="9817000" />
     </task>
     <servers />
   </component>
