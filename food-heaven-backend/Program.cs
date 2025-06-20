@@ -1,15 +1,29 @@
 using food_heaven_backend.Shared.Infraestructure.Persistence.Configuration;
 using food_heaven_backend.Shared.Domain.Repositories;
 using food_heaven_backend.Shared.Infraestructure.Persistence.Repositories;
+
 using food_heaven_backend.Usuarios.Domain.Services;
+using food_heaven_backend.PlanComidas.Domain.Services;
+
 using food_heaven_backend.Usuarios.Application.CommandServices;
+using food_heaven_backend.PlanComidas.Application.CommandServices;
+
 using food_heaven_backend.Usuarios.Application.QueryServices;
+using food_heaven_backend.PlanComidas.Application.QueryServices;
+
 using food_heaven_backend.Usuarios.Domain;
+
 using food_heaven_backend.Usuarios.Infraestructure;
+using food_heaven_backend.PlanComidas.Infrastructure;
+
 using FluentValidation;
+
+using food_heaven_backend.PlanComidas.Domain.Models.Commands;
 using food_heaven_backend.Usuarios.Domain.Models.Commands;
+
+using food_heaven_backend.PlanComidas.Domain.Models.Validators;
 using food_heaven_backend.Usuarios.Domain.Models.Validators;
-using food_heaven_backend.Usuarios.Infraestructure;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

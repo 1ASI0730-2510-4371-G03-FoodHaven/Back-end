@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using food_heaven_backend.Usuarios.Domain.Models.Entities;
-using food_heaven_backend.PlanComida.Domain.Models.Entities;
+using food_heaven_backend.PlanComidas.Domain.Models.Entities;
 
 namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
 {

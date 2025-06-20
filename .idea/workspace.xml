@@ -11,7 +11,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/food-heaven-backend/PlanComida/Domain/Models/Entities/PlanComida.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/food-heaven-backend/PlanComidas/Application/CommandServices/PlanComidaCommandService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Entities/PlanComida.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/PlanComidaController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/food-heaven-backend/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/FoodHeavenContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
