@@ -1,6 +1,4 @@
-@food_heaven_backend_HostAddress = https://foodheavendb-feexd7axaqbya6hv.canadacentral-01.azurewebsites.net
+@food_heaven_backend_HostAddress = http://localhost:5231
 
 GET {{food_heaven_backend_HostAddress}}/weatherforecast/
 Accept: application/json
-
-###
