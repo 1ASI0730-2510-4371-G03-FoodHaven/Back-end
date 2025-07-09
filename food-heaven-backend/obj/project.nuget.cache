@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zjUOusr1lY4=",
+  "dgSpecHash": "YWryNA8RtMw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\Downloads\\Back-end-main (2)\\Back-end-main\\Back-end-main\\food-heaven-backend\\food-heaven-backend.csproj",
+  "projectFilePath": "C:\\Users\\Ricardo\\Downloads\\JUEGO_GAMELab\\JUEGO_GAMELab\\Back-end\\food-heaven-backend\\food-heaven-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\bcrypt\\1.0.0\\bcrypt.1.0.0.nupkg.sha512",
     "C:\\Users\\Ricardo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
@@ -74,8 +74,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "El paquete \"BCrypt 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net9.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "C:\\Users\\Ricardo\\Downloads\\JUEGO_GAMELab\\JUEGO_GAMELab\\Back-end\\food-heaven-backend\\food-heaven-backend.csproj",
       "warningLevel": 1,
-      "message": "Package 'BCrypt 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "filePath": "C:\\Users\\Ricardo\\Downloads\\JUEGO_GAMELab\\JUEGO_GAMELab\\Back-end\\food-heaven-backend\\food-heaven-backend.csproj",
       "libraryId": "BCrypt",
       "targetGraphs": [
         "net9.0"

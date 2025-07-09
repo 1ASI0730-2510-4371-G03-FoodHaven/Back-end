@@ -133,12 +133,6 @@ C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-back
 C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets\msbuild.food-heaven-backend.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets\msbuild.food-heaven-backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets\msbuild.build.food-heaven-backend.props
-C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.food-heaven-backend.props
-C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.food-heaven-backend.props
-C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-hea.AC950CE0.Up2Date
 C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.dll
 C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\refint\food-heaven-backend.dll
@@ -479,3 +473,19 @@ C:\Users\Ricardo\Downloads\Back-end-main (2)\Back-end-main\Back-end-main\food-he
 C:\Users\Ricardo\Downloads\Back-end-main (2)\Back-end-main\Back-end-main\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.pdb
 C:\Users\Ricardo\Downloads\Back-end-main (2)\Back-end-main\Back-end-main\food-heaven-backend\obj\Debug\net9.0\food-heaven-backend.genruntimeconfig.cache
 C:\Users\Ricardo\Downloads\Back-end-main (2)\Back-end-main\Back-end-main\food-heaven-backend\obj\Debug\net9.0\ref\food-heaven-backend.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\EntityFrameworkCore.CreatedUpdatedDate.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Ricardo\Downloads\JUEGO_GAMELab\JUEGO_GAMELab\Back-end\food-heaven-backend\obj\Debug\net9.0\staticwebassets.build.json.cache
