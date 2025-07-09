@@ -3,7 +3,7 @@ using food_heaven_backend.Shared.Domain.Model.Entities;
 
 namespace food_heaven_backend.PlanComidas.Domain.Models.Entities;
 
-[Table("plan_comida")]
+[Table("PlanComida")]
 public class PlanComida : BaseEntity
 {
     [Column("id_plan")]

@@ -2,23 +2,31 @@
 
 public class UpdateComidaCommand
 {
-    public int Id { get; init; }
-    public string Nombre { get; }
-    public string Descripcion { get; }
-    public int Calorias { get; }
-    public int Id_TipoComida { get; }
-    public int Id_proveedor { get;  }
-    public bool EsEspecial { get; }
+    public string Nombre { get; set; }
+    
+    public string Complemento { get; set; }
+    public string Url { get; set; }
+    public int Calorias { get; set; }
+    public int Proteina { get; set; }
+    public int Carbohidrato { get; set; }
+    public int Grasa { get; set; }
+    public int id_tipo_comida { get; set; }
+    public int Id_proveedor { get; set; }
+    public bool es_especial { get; set; }
 
-    public UpdateComidaCommand(int Id, string Nombre, string Descripcion, int Calorias, int Id_TipoComida, int Id_proveedor, bool EsEspecial)
+    public UpdateComidaCommand() { }
+
+    public UpdateComidaCommand(string nombre, string complemento, string url, int calorias, int proteina, int carbohidrato, int grasa, int idTipoComida, int idProveedor, bool es_especial)
     {
-        this.Id = Id;
-        this.Nombre = Nombre;
-        this.Descripcion = Descripcion;
-        this.Calorias = Calorias;
-        this.Id_TipoComida = Id_TipoComida;
-        this.Id_proveedor = Id_proveedor;
-        this.EsEspecial = EsEspecial;
+        Nombre = nombre;
+        Complemento = complemento;
+        Url = url;
+        Calorias = calorias;
+        Proteina = proteina;
+        Carbohidrato = carbohidrato;
+        Grasa = grasa;
+        id_tipo_comida = idTipoComida;
+        Id_proveedor = idProveedor;
+        es_especial = es_especial;
     }
-
 }

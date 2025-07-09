@@ -5,7 +5,7 @@ using food_heaven_backend.FoodCatalogContext.Domain.Models.ValueObjects;
 
 namespace food_heaven_backend.FoodCatalogContext.Domain.Models.Entities;
 
-[Table("tipo_comida")]
+[Table("TipoComida")]
 public class TipoComida: BaseEntity
 {
     

@@ -1,74 +1,38 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using food_heaven_backend.Usuarios.Domain.Models.Entities;
-<<<<<<< HEAD:food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/LearningCenterContext.cs
 using food_heaven_backend.FoodCatalogContext.Domain.Models.Entities;
-=======
 using food_heaven_backend.PlanComidas.Domain.Models.Entities;
->>>>>>> feature/mealPlanContext:food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/FoodHeavenContext.cs
+using food_heaven_backend.Security.Domain.Entities;
 
 namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
 {
     public class FoodHeavenContext(DbContextOptions options) : DbContext(options)
     {
-        public DbSet<Usuario> Usuarios { get; set; }
-<<<<<<< HEAD:food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/LearningCenterContext.cs
         public DbSet<Proveedor> Proveedores { get; set; }
         public DbSet<TipoProveedor> TiposProveedor { get; set; }
         public DbSet<TipoComida> TipoComidas { get; set; }
         public DbSet<Comida> Comidas { get; set; }
-=======
         public DbSet<PlanComida> PlanesComida { get; set; }
->>>>>>> feature/mealPlanContext:food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/FoodHeavenContext.cs
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<Usuario>(entity =>
+            builder.Entity<User>(entity =>
             {
-                entity.ToTable("usuario"); // Nombre real de la tabla
+                entity.ToTable("user");
 
                 entity.HasKey(u => u.Id);
 
-                entity.Property(u => u.Id)
-                    .HasColumnName("id_usuario");
+                entity.Property(u => u.Id).HasColumnName("id");
+                entity.Property(u => u.Username).HasColumnName("username").IsRequired().HasMaxLength(100);
+                entity.Property(u => u.PasswordHashed).HasColumnName("password_hashed").IsRequired().HasMaxLength(255);
+                entity.Property(u => u.Role).HasColumnName("role").IsRequired().HasMaxLength(50);
 
-                entity.Property(u => u.Nombre)
-                    .HasColumnName("nombre")
-                    .IsRequired()
-                    .HasMaxLength(100);
 
-                entity.Property(u => u.Email)
-                    .HasColumnName("email")
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(u => u.Contraseña)
-                    .HasColumnName("contraseña")
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(u => u.Edad)
-                    .HasColumnName("edad")
-                    .IsRequired();
-
-                entity.Property(u => u.Sexo)
-                    .HasColumnName("sexo")
-                    .IsRequired();
-
-                entity.Property(u => u.Distrito)
-                    .HasColumnName("distrito")
-                    .HasMaxLength(100);
-
-                entity.Property(u => u.FechaRegistro)
-                    .HasColumnName("fecha_registro")
-                    .IsRequired();
             });
-            
-<<<<<<< HEAD:food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/LearningCenterContext.cs
             builder.Entity<TipoProveedor>(entity =>
             {
-                entity.ToTable("tipo_proveedor");
+                entity.ToTable("TipoProveedor");
 
                 entity.HasKey(tp => tp.Id);
 
@@ -78,7 +42,7 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
 
             builder.Entity<Proveedor>(entity =>
             {
-                entity.ToTable("proveedor");
+                entity.ToTable("Proveedor");
 
                 entity.HasKey(p => p.Id);
 
@@ -95,7 +59,7 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
             });
             builder.Entity<Comida>(entity =>
             {
-                entity.ToTable("comida");
+                entity.ToTable("Comida");
 
                 entity.HasKey(c => c.Id);
                 entity.Property(c => c.Id).HasColumnName("id_comida");
@@ -105,20 +69,36 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
                     .IsRequired()
                     .HasMaxLength(100);
 
-                entity.Property(c => c.Descripcion)
-                    .HasColumnName("descripcion")
+                entity.Property(c => c.Complemento)
+                    .HasColumnName("complemento")
                     .IsRequired()
                     .HasMaxLength(255);
 
-                entity.Property(c => c.Calorias)
-                    .HasColumnName("calorias")
+                entity.Property(c => c.Url)
+                    .HasColumnName("url")
                     .IsRequired();
 
-                entity.Property(c => c.EsEspecial)
+                entity.Property(c => c.Cal)
+                    .HasColumnName("cal")
+                    .IsRequired();
+
+                entity.Property(c => c.Prote)
+                    .HasColumnName("prote")
+                    .IsRequired();
+
+                entity.Property(c => c.Carbo)
+                    .HasColumnName("carbo")
+                    .IsRequired();
+
+                entity.Property(c => c.Grasa)
+                    .HasColumnName("grasa")
+                    .IsRequired();
+
+                entity.Property(c => c.es_especial)
                     .HasColumnName("es_especial")
                     .IsRequired();
 
-                entity.Property(c => c.Id_TipoComida)
+                entity.Property(c => c.id_tipo_comida)
                     .HasColumnName("id_tipo_comida")
                     .IsRequired();
 
@@ -128,7 +108,7 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
 
                 entity.HasOne(c => c.TipoComida)
                     .WithMany()
-                    .HasForeignKey(c => c.Id_TipoComida)
+                    .HasForeignKey(c => c.id_tipo_comida)
                     .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasOne(c => c.Proveedor)
@@ -139,7 +119,7 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
 
             builder.Entity<TipoComida>(entity =>
             {
-                entity.ToTable("tipo_comida");
+                entity.ToTable("TipoComida");
 
                 entity.HasKey(tc => tc.Id);
 
@@ -149,10 +129,10 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
                 entity.Property(tc => tc.Descripcion)
                     .HasColumnName("descripcion")
                     .IsRequired();
-=======
+            });
             builder.Entity<PlanComida>(entity =>
             {
-                entity.ToTable("plan_comida");
+                entity.ToTable("PlanComida");
 
                 entity.HasKey(pc => pc.Id);
 
@@ -160,7 +140,6 @@ namespace food_heaven_backend.Shared.Infraestructure.Persistence.Configuration
                 entity.Property(pc => pc.IdUsuario).HasColumnName("id_usuario").IsRequired();
                 entity.Property(pc => pc.FechaInicio).HasColumnName("fecha_inicio").IsRequired();
                 entity.Property(pc => pc.FechaFin).HasColumnName("fecha_fin").IsRequired();
->>>>>>> feature/mealPlanContext:food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/FoodHeavenContext.cs
             });
         }
     }

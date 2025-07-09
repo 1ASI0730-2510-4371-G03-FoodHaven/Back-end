@@ -11,10 +11,10 @@ public class CreateComidaCommandValidator : AbstractValidator<CreateComidaComman
             .NotEmpty().WithMessage("Nombre is required")
             .MaximumLength(50).WithMessage("Nombre must be at most 50 characters");
 
-        RuleFor(p => p.Descripcion)
-            .NotEmpty().WithMessage("Descripcion is required")
-            .MaximumLength(50).WithMessage("Descripcion must be at most 50 characters");
-        
+        RuleFor(p => p.Complemento)
+            .NotEmpty().WithMessage("Complemento is required")
+            .MaximumLength(50).WithMessage("Complemento must be at most 50 characters");
+
     }
     
 }

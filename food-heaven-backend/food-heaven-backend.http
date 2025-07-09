@@ -2,5 +2,3 @@
 
 GET {{food_heaven_backend_HostAddress}}/weatherforecast/
 Accept: application/json
-
-###

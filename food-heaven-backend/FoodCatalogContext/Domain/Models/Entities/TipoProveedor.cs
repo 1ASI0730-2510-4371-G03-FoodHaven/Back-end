@@ -5,7 +5,7 @@ using food_heaven_backend.Shared.Domain.Model.Entities;
 
 namespace food_heaven_backend.FoodCatalogContext.Domain.Models.Entities;
 
-[Table("tipo_proveedor")]
+[Table("TipoProveedor")]
 public class TipoProveedor : BaseEntity
 {
     [Column("id_tipo_proveedor")]

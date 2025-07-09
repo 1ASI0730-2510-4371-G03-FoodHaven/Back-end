@@ -4,14 +4,200 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced40f80-93ab-4430-990b-abc851add8ce" name="Changes" comment="" />
+    <list default="true" id="ced40f80-93ab-4430-990b-abc851add8ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend.sln" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/CommandServices/ComidaCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/CommandServices/ComidaCommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/CommandServices/ProveedorCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/CommandServices/ProveedorCommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/QueryServices/ComidaQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/QueryServices/ComidaQueryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/QueryServices/ProveedorQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Application/QueryServices/ProveedorQueryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/IComidaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/IComidaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/IProveedorRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/IProveedorRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/CreateComidaCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/CreateComidaCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/CreateProveedorCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/CreateProveedorCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/DeleteComidaCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/DeleteComidaCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/DeleteProveedorCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/DeleteProveedorCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/UpdateComidaCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/UpdateComidaCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/UpdateProveedorCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Commands/UpdateProveedorCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/Comida.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/Comida.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/Proveedor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/Proveedor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/TipoComida.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/TipoComida.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/TipoProveedor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Entities/TipoProveedor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Exceptions/ComidaNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Exceptions/ComidaNotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Exceptions/ProveedorNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Exceptions/ProveedorNotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetAllComidaQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetAllComidaQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetAllProvidersQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetAllProvidersQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetComidabyNameQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetComidabyNameQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetProviderByIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Queries/GetProviderByIdQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Validators/ComidaCommandServiceValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Validators/ComidaCommandServiceValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Validators/ProveedorCommandServiceValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/Validators/ProveedorCommandServiceValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/valueobjects/TipoComidas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/valueobjects/TipoComidas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/valueobjects/TipoProvedorDescripcion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Models/valueobjects/TipoProvedorDescripcion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IComidaCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IComidaCommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IComidaQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IComidaQueryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IProveedorCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IProveedorCommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IProveedorQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Domain/Services/IProveedorQueryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Infraestructure/ComidaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Infraestructure/ComidaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Infraestructure/ProveedorRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Infraestructure/ProveedorRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/ComidaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/ComidaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/ProveedorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/ProveedorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Resources/ComidaResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Resources/ComidaResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Resources/ProveedorResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Resources/ProveedorResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Transform/ComidaResourceFromEntityAssembler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Transform/ComidaResourceFromEntityAssembler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Transform/ProveedorResourceFromEntityAssembler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/FoodCatalogContext/Interfaces/REST/Transform/ProveedorResourceFromEntityAssembler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Application/CommandServices/PlanComidaCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Application/CommandServices/PlanComidaCommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Application/QueryServices/PlanComidaQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Application/QueryServices/PlanComidaQueryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Commands/CreatePlanComidaCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Commands/CreatePlanComidaCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Commands/DeletePlanComidaCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Commands/DeletePlanComidaCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Commands/UpdatePlanComidaCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Commands/UpdatePlanComidaCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Entities/PlanComida.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Entities/PlanComida.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Exceptions/NotPlanComidaFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Exceptions/NotPlanComidaFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Queries/GetAllPlanComidasQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Queries/GetAllPlanComidasQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Queries/GetPlanComidaByIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Queries/GetPlanComidaByIdQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Validators/CreatePlanComidaCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Models/Validators/CreatePlanComidaCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Services/IPlanComidaCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Services/IPlanComidaCommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Services/IPlanComidaQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Services/IPlanComidaQueryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Services/IPlanComidaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Domain/Services/IPlanComidaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Infrastructure/PlanComidaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Infrastructure/PlanComidaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/PlanComidaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/PlanComidaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/Resources/PlanComidaResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/Resources/PlanComidaResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/Transform/PlanComidaResourceFromEntityAssembler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/PlanComidas/Interfaces/REST/Transform/PlanComidaResourceFromEntityAssembler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Domain/Model/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Domain/Model/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Domain/Repositories/IBaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Domain/Repositories/IBaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Domain/Repositories/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/FoodHeavenContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Configuration/FoodHeavenContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Repositories/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Repositories/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Repositories/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/Shared/Infraestructure/Persistence/Repositories/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Application/CommandServices/UsuarioCommandService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Application/QueryServices/UsuarioQueryService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/IUsuarioRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Commands/CreateUsuarioCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Commands/DeleteUsuarioCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Commands/UpdateUsuarioCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Entities/Usuario.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Exceptions/NotUsuarioFoundException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Queries/GetAllUsuariosQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Queries/GetUsuarioByIdQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Models/Validators/CreateUsuarioCommandValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Services/IUsuarioCommandService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Domain/Services/IUsuarioQueryService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Infraestructure/UsuarioRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Interfaces/REST/Resources/UsuarioResource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Interfaces/REST/Transform/UsuarioResourceFromEntityAssembler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/Usuarios/Interfaces/REST/UsuarioController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/WeatherForecast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.exe" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/bin/Debug/net9.0/food-heaven-backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/food-heaven-backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/food-heaven-backend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/food-heaven-backend.http" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/food-heaven-backend.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/food-heaven-backend.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/ref/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/ref/food-heaven-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/refint/food-heaven-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/refint/food-heaven-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/food-heaven-backend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/food-heaven-backend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/food-heaven-backend.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/food-heaven-backend.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-heaven-backend/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/food-heaven-backend/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Kratosllego12"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/1ASI0730-2510-4371-G03-FoodHaven/Back-end.git",
+    "accountId": "ab2d257d-2744-4236-ad56-1de6ee0c74ac"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2zea8ivtGJgqUt3lLo2pwIXyEI6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ced40f80-93ab-4430-990b-abc851add8ce" name="Changes" comment="" />
+      <created>1752093834967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752093834967</updated>
+      <workItem from="1752093836054" duration="93000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>

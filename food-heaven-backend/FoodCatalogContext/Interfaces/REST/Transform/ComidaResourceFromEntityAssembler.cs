@@ -9,13 +9,19 @@ public static class ComidaResourceFromEntityAssembler
     {
         return new ComidaResource
         (
-            comida.Id,
-            comida.Nombre,
-            comida.Descripcion,
-            comida.Calorias,
-            comida.Id_TipoComida,
-            comida.Id_Proveedor,
-            comida.EsEspecial
+            id_comida: comida.Id,
+            nombre: comida.Nombre,
+            complemento: comida.Complemento,
+            url: comida.Url,
+            nutriente: new NutrienteResource(
+                cal: comida.Cal,
+                prote: comida.Prote,
+                carbo: comida.Carbo,
+                grasa: comida.Grasa
+            ),
+            id_proveedor: comida.Id_Proveedor,
+            id_tipo_comida: comida.id_tipo_comida,
+            es_especial: comida.es_especial // ya es int
         );
     }
 }
