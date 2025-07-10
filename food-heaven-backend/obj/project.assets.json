@@ -3050,19 +3050,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\pquincho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Downloads\\Back-end-main\\food-heaven-backend\\food-heaven-backend.csproj",
+      "projectUniqueName": "C:\\Users\\pquincho\\Documents\\Back-end-main\\food-heaven-backend\\food-heaven-backend.csproj",
       "projectName": "food-heaven-backend",
-      "projectPath": "C:\\Users\\user\\Downloads\\Back-end-main\\food-heaven-backend\\food-heaven-backend.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Downloads\\Back-end-main\\food-heaven-backend\\obj\\",
+      "projectPath": "C:\\Users\\pquincho\\Documents\\Back-end-main\\food-heaven-backend\\food-heaven-backend.csproj",
+      "packagesPath": "C:\\Users\\pquincho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pquincho\\Documents\\Back-end-main\\food-heaven-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pquincho\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3086,7 +3086,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3168,7 +3168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\pquincho\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
