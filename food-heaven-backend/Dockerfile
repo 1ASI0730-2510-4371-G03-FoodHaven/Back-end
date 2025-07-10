@@ -6,7 +6,7 @@ WORKDIR /app
 COPY food-heaven-backend.csproj ./
 RUN dotnet restore
 
-# Ahora copiamos todo
+# Ahora copiamos
 COPY . ./
 RUN dotnet publish -c Release -o out
 
