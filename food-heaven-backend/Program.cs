@@ -103,11 +103,21 @@ if (app.Environment.IsDevelopment())
 }
 
 // Se asegura que la base de datos esté creada
-using (var scope = app.Services.CreateScope())
+// Intentar crear la base de datos solo si la conexión existe
+try
 {
+    using var scope = app.Services.CreateScope();
     var context = scope.ServiceProvider.GetRequiredService<FoodHeavenContext>();
-    context.Database.EnsureCreated();
+    if (!string.IsNullOrWhiteSpace(context.Database.GetConnectionString()))
+    {
+        context.Database.EnsureCreated();
+    }
 }
+catch (Exception ex)
+{
+    Console.WriteLine($"[WARN] La base de datos no está disponible aún: {ex.Message}");
+}
+
 
 // Redirigir la raíz '/' a Swagger
 app.Use(async (context, next) =>
