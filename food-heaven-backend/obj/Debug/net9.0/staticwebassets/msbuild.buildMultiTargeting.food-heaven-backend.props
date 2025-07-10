@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\food-heaven-backend.props" />
+</Project>
